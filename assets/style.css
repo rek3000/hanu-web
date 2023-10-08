@@ -1,0 +1,137 @@
+@import url("/assets/nav.css");
+@import url("/assets/rules.css");
+
+/* CONTENT */
+#greet-img {
+    padding: 0.5rem;
+}
+
+#greet-img > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border: 0 solid var(--bg-title);
+    box-shadow: var(--base-shadow);
+}
+
+#greet-title {
+    text-align: center;
+}
+
+#greet-title > p{
+    text-align: center;
+    text-decoration: underline 0.1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    background-color: var(--bg-title);
+    border: 4px solid var(--bg-title);
+    border-radius: 0.6rem;
+}
+
+#greet-subtitle {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    margin: 0rem;
+}
+
+#greet-subtitle > p{
+    background-color: var(--bg-def);
+    color: var(--fg-def);
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.time-year {
+    font-weight: bold;
+    padding-right: 0.8rem;
+}
+
+.title {
+    margin-bottom: 0.8rem;
+    text-align: justify;
+    hyphens: auto;
+}
+
+#title-2 > p {
+    text-indent: 0.5rem;
+}
+#title-3 > p {
+    text-indent: 0.5rem;
+} 
+
+#title-4 > ul > li {
+    margin-bottom: 1rem;
+}
+
+#title-4 > ul > li > p {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+#things-2 > p {
+    border: 1px solid var(--fg-def);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0rem;
+    padding-top: 1rem;
+
+}
+#things-2 > p > a{
+    padding: 0rem 0.1rem;
+}
+
+#rices {
+    display: flex;
+    vertical-align: space-evenly;
+    justify-content: center;
+    background-color: var(--bg-def);
+}
+
+#rices > a {
+    margin: 0;
+    margin-left: 10px;
+    padding-top: 5px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#rices > a > img{
+    width: 100%;
+    /* object-fit: fill; */
+}
+
+/* FOOTER */
+footer {
+    border: 3px solid var(--fg-def);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    margin-inline: auto;
+}
+
+#foot-title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#social {
+    margin: 0rem 2rem;
+    background-color: var(--bg-def);
+}
+
+#social > li {
+    margin-bottom: 5px;
+}
+#social > li > a{
+    padding: 0 10px;
+}
+
+#social > li > a > p {
+    box-shadow: var(--base-shadow);
+}

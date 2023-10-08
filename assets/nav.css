@@ -1,0 +1,29 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--green);
+    box-shadow: var(--base-shadow);
+    position: sticky;
+    top: 0;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.menu > li {
+    display: inline-block;
+    padding: 0 0.5rem 0 0;
+}
+
+#donate > a,
+.menu > li > a {
+    color: var(--fg-def);
+    background-color: var(--green);
+    padding: 0.2rem 1rem;
+}
+
+#donate > a:hover,
+.menu > li > a:hover {
+    color: var(--bg-def);
+    background-color: var(--link-def);
+}

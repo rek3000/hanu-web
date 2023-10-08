@@ -1,0 +1,83 @@
+:root {
+    --bg-def: #F5EFE7;
+    --fg-def: #15151B;
+    --link-def: #526953;
+    --bg-title: #C8DBBE;
+    --green: #5C8374;
+    --base-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: serif;
+    font-size: 15px;
+    background-color: var(--bg-def);
+    color: var(--fg-def);
+}
+
+#main {
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    #main {
+        margin: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    #main {
+        margin: 0 1rem;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main {
+        margin: 0 2rem;
+        font-size: 13px;
+    }
+}
+
+
+/* LINK */
+a {
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+    background-color: var(--bg-def);
+}
+a:active {
+    color: var(--link-def);
+}
+a:visited {
+    color: var(--link-def);
+}
+a:hover {
+    color: var(--bg-def);
+    background: var(--link-def);
+}
+
+/* HEADER */
+.head-name {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.head-subtitle {
+    font-size: 1.0rem;
+    font-weight: normal;
+}
+
+.head-sub-subtitle {
+    margin-bottom: 0.1rem;
+    font-size: 1.3rem;
+    text-decoration: underline 0.1rem;
+}
